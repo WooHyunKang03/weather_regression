@@ -1,0 +1,23 @@
+{
+  "model_type": "ordinary_least_squares_linear_regression",
+  "features": [
+    "wind_speed_ms",
+    "wind_speed_1h_before",
+    "wind_speed_2h_before",
+    "temperature_C",
+    "humidity_pct"
+  ],
+  "intercept": 0.5482589048185693,
+  "coefficients": [
+    0.5770659584651262,
+    0.1681897228723728,
+    0.05836686827318527,
+    0.0007048468428034126,
+    -0.0016086337526211576
+  ],
+  "negative_prediction_clipped_to": 0.0,
+  "training_target_time_start": "2023-01-01 00:00:00",
+  "training_target_time_end": "2024-11-30 23:59:59",
+  "training_rows": 16720,
+  "target_column": "target_wind_speed_ms"
+}
